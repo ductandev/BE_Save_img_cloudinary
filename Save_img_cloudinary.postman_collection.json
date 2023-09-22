@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "1f674371-ca6c-4650-99ef-99279ec90d95",
+		"name": "Save_img_cloudinary",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18888957",
+		"_collection_link": "https://orange-escape-954273.postman.co/workspace/Danh-sach-api-sinh-vi%C3%AAn~cf4d8bb9-5b91-4201-a04d-7e494ec35777/collection/18888957-1f674371-ca6c-4650-99ef-99279ec90d95?action=share&source=collection_link&creator=18888957"
+	},
+	"item": [
+		{
+			"name": "Save_img_cloudinary",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Admin/Desktop/Box.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
